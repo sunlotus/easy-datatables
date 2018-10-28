@@ -1,0 +1,139 @@
+/* datatable 工具栏按钮 */
+.edt-toolbar-btn {
+    margin-right: 10px;
+    float: right;
+}
+
+.edt-toolbar-btn > i {
+    margin-right: 5px;
+}
+
+th {
+    text-align: center
+}
+
+/**
+ * 合计行
+ */
+.edt-page-total {
+    background: #fffee2 !important;
+}
+
+/**
+ * 总计行
+ */
+.edt-total {
+    background: #efeecf !important;
+}
+.edt-column-click,
+.edt-child-expand {
+    cursor: pointer;
+    color: #0474c8;
+}
+
+table.edt-child {
+    width: 100%;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    overflow-x: auto;
+}
+
+.edt-child > tbody > tr > td,
+.edt-child > tbody > tr > th,
+.edt-child > tfoot > tr > td,
+.edt-child > tfoot > tr > th,
+.edt-child > thead > tr > td,
+.edt-child > thead > tr > th {
+    border: 1px solid #ddd;
+    white-space: nowrap;
+}
+
+.edt-child-container {
+    padding: 0 !important;
+}
+
+.edt-child-pagebtn-container > span {
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 2px 6px 2px 4px;
+    display: inline-block;
+    right: 0;
+    min-width: 20px;
+    text-align: center;
+}
+
+.edt-child-page-container {
+    display: inline-block;
+    border-bottom: 1px solid #ddd;
+    border-top: 0;
+    width: 100%;
+}
+.edt-child-page-container > div.edt-child-page-info {
+    height: 22px;
+    line-height: 22px;
+}
+.edt-child-page-container > div {
+    float: left;
+    padding: 0 5px;
+    margin:5px 0;
+    line-height: 16px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+.edt-child-pagebtn-container > span {
+    color: #337ab7;
+}
+
+.edt-child-pagebtn-container > span.page-no
+{
+    border-radius: 0px;
+    margin-left: -1px;
+}
+
+.edt-child-pagebtn-container > span.disabled {
+    cursor: not-allowed;
+    color: #73879C;
+}
+
+.edt-child-pagebtn-container > span:last-child {
+    margin-left: -1px;
+    border-radius: 0 3px 3px 0;
+}
+
+.edt-child-pagebtn-container > span.current-page {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+.edt-child td,
+.edt-child th {
+    padding: 3px 5px 1px 5px
+}
+
+.edt-child td.edt-child-seq {
+    text-align: center
+}
+
+.edt-child-pagebtn-container > span.next-page-more,
+.edt-child-pagebtn-container > span.pre-page-more{
+    cursor: not-allowed;
+    border-radius: 0px;
+    margin-left: -1px;
+}
+
+table.edt-child > thead > tr > th:first-child,
+table.edt-child > tbody > tr > td:first-child {
+    border-left: 0
+}
+
+table.edt-child > thead > tr > th:last-child,
+table.edt-child > tbody > tr > td:last-child {
+    border-right: 0
+}
+
+.edt-btn {
+    margin-left:5px;
+}
